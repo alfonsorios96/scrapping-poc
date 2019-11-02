@@ -3,7 +3,7 @@ const utils = require('./_utils.js');
 
 const amazon = async (productName) => {
     try {
-        const domain = "https://www.amazon.com.mx/";
+        const domain = 'https://www.amazon.com.mx/';
         // create a new browser instance
         const browser = await puppeteer.launch();
     
